@@ -133,7 +133,10 @@ public class RNSensor extends ReactContextBaseJavaModule implements SensorEventL
           map.putDouble("pitch", orientation[1]);
           map.putDouble("roll", orientation[2]);
           break;
-
+        case Sensor.TYPE_LIGHT:
+          map.putDouble("value",sensorEvent.values[0]);
+          map.putDouble("maxRange",sensorEvent.sensor.getMaximumRange());
+          break;
         default:
           Log.e("ERROR", "Sensor type '" + currentType + "' not implemented!");
           return;
