@@ -21,7 +21,7 @@ const nativeApis = new Map([
   ["barometer", BarNative],
   ["orientation", OrientNative],
   ["gravity", GravNative],
-  ['light',LightNative]
+  ['light',LightNative],
   ["proximity",ProximityNative]
 ]);
 
