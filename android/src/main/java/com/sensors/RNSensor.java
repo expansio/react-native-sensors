@@ -134,6 +134,7 @@ public class RNSensor extends ReactContextBaseJavaModule implements SensorEventL
           map.putDouble("roll", orientation[2]);
           break;
         case Sensor.TYPE_LIGHT:
+        case Sensor.TYPE_PROXIMITY:
           map.putDouble("value",sensorEvent.values[0]);
           map.putDouble("maxRange",sensorEvent.sensor.getMaximumRange());
           break;
