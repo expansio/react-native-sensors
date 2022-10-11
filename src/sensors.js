@@ -32,7 +32,7 @@ const nativeApis = new Map([
   ["barometer", BarNative],
   ["orientation", OrientNative],
   ["gravity", GravNative],
-  ["light",LightNative]
+  ["light",LightNative],
   ["proximity",ProximityNative]
 ]);
 
@@ -43,7 +43,7 @@ const eventEmitterSubscription = new Map([
   ["barometer", null],
   ["orientation", null],
   ["gravity", null],
-  ["light",null]
+  ["light",null],
   ['proximity',null]
 ]);
 
