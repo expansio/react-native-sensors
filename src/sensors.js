@@ -21,7 +21,7 @@ const listenerKeys = new Map([
   ["barometer", "RNSensorsBarometer"],
   ["orientation", "RNSensorsOrientation"],
   ["gravity", "RNSensorsGravity"],
-  ["light","RNSensorsLight"]
+  ["light","RNSensorsLight"],
   ["proximity","RNSensorProximity"]
 ]);
 
